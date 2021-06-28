@@ -44,6 +44,28 @@ a{
 	background-color: rgb(225, 214, 122);
 	height: 600px;
 	margin-bottom: 20px;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.title_in_main1{
+	color: white;
+	position: absolute;
+	font-size: 45px;
+	margin-bottom: 5px;
+	left: 5%;
+	bottom: 20%;
+}
+
+.p_in_main1{
+	color: white;
+	position: absolute;
+	left: 5%;
+	bottom: 15%;
+	font-size: 20px;
 }
 
 .main_2 {
