@@ -1,0 +1,61 @@
+  
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Common */
+.container {
+	width: 80%;
+	margin: auto;
+}
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+header {
+	background-color: rgb(229, 122, 228);
+	height: 150px;
+	margin: 20px 0;
+}
+
+.main_1 {
+	background-color: rgb(225, 214, 122);
+	height: 600px;
+	margin-bottom: 20px;
+}
+
+.main_2 {
+	background-color: rgb(2, 137, 254);
+}
+.main_title {
+	background-color: rgb(171, 207, 231);
+	height: 80px;
+}
+
+.row {
+	padding: 20px 0;
+}
+
+.col_left, .col_center, .col_right {
+	float: left;
+	background-color: rgb(171, 207, 231);
+	border: 1px solid black;
+}
+.col_left, .col_right {
+	width: 20%;
+}
+.col_center {
+	width: calc(60% - 40px);
+	margin: 0 20px;
+}
+
+footer {
+	background-color: rgb(131, 1, 254);
+	height: 80px;
+	margin: 10px 0 20px 0;
+}
