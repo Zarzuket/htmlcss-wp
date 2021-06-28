@@ -23,6 +23,23 @@ header {
 	margin: 20px 0;
 }
 
+a{
+	text-decoration: unset;
+	margin-right: 20px;
+	color: grey;
+}
+
+.img_logo{
+	height: 60%;
+	margin-bottom: 20px;
+	padding-right: 20px;
+	border-right: 1px solid grey;
+}
+
+.list{
+	list-style-type: none;
+}
+
 .main_1 {
 	background-color: rgb(225, 214, 122);
 	height: 600px;
