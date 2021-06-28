@@ -16,9 +16,12 @@
 	display: table;
 	clear: both;
 }
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 
 header {
-	background-color: rgb(229, 122, 228);
+
 	height: 150px;
 	margin: 20px 0;
 }
@@ -33,7 +36,7 @@ a{
 	height: 60%;
 	margin-bottom: 20px;
 	padding-right: 20px;
-	border-right: 1px solid grey;
+
 }
 
 .list{
@@ -41,7 +44,6 @@ a{
 }
 
 .main_1 {
-	background-color: rgb(225, 214, 122);
 	height: 600px;
 	margin-bottom: 20px;
 	background-image: url(../img/banner.jpg);
@@ -49,13 +51,14 @@ a{
 	background-size: cover;
 	background-position: center;
 	position: relative;
+	border-radius: 10px;
 }
 
 .title_in_main1{
 	color: white;
 	position: absolute;
 	font-size: 45px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	left: 5%;
 	bottom: 20%;
 }
@@ -64,15 +67,12 @@ a{
 	color: white;
 	position: absolute;
 	left: 5%;
-	bottom: 15%;
+	bottom: 13%;
 	font-size: 20px;
+	
 }
 
-.main_2 {
-	background-color: rgb(2, 137, 254);
-}
 .main_title {
-	background-color: rgb(171, 207, 231);
 	height: 80px;
 }
 
@@ -86,10 +86,8 @@ a{
 
 .col_left, .col_center, .col_right {
 	float: left;
-	background-color: rgb(171, 207, 231);
-	border: 1px solid black;
-	
 }
+
 .col_left {
 	width: 20%;
 	border-radius: 10px;
@@ -99,6 +97,7 @@ a{
 	background-image: url(../img/img-1.jpg);
 	height: 250px;
 	border-radius: 10px;
+	position: relative;
 }
 
 .col_right{
@@ -113,6 +112,7 @@ a{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	position: relative;
 }
 .col_center {
 	width: calc(60% - 40px);
@@ -126,6 +126,7 @@ a{
 	background-position: center;
 	height: 250px;
 	border-radius: 10px;
+	position: relative;
 }
 
 footer {
@@ -137,4 +138,23 @@ footer {
 .h_columns{
 	margin-top: 20px;
 	margin-bottom: 10px;
+}
+
+.p_footer{
+	text-align: center;
+}
+
+.heart{
+	color: red;
+	text-align: center;
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.2);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 10px;
 }
