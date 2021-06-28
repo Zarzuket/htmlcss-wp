@@ -36,6 +36,7 @@ a{
 	height: 60%;
 	margin-bottom: 20px;
 	padding-right: 20px;
+	border-right: 1px ridge grey;
 
 }
 
@@ -130,7 +131,6 @@ a{
 }
 
 footer {
-	background-color: rgb(131, 1, 254);
 	height: 80px;
 	margin: 10px 0 20px 0;
 }
@@ -138,15 +138,21 @@ footer {
 .h_columns{
 	margin-top: 20px;
 	margin-bottom: 10px;
+	color: grey;
 }
 
+.p_columns{
+	color: grey;
+}
 .p_footer{
 	text-align: center;
+
 }
 
 .heart{
 	color: red;
 	text-align: center;
+
 }
 
 .overlay{
